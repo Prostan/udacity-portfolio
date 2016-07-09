@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-4 title-logo"><img src="images/udacity-logo.png" alt="udacity logo"></div>
+        <div class="col-md-8 text-right text-uppercase">
+          <h1 class="name">STAN ADAMCHYK</h1>
+          <h4>Front-end Ninja</h4>
+        </div>
+      </header>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="seporator">
+        </div>
+      </div>
+      <section class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="images/placeimg_1140_350_tech.jpg" alt = "main image">
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </section>
+      <section class="row  text-center">
+        <article class="col-md-4">
+          <img class="img-responsive" src="images/project1-img.jpg" data-toggle="modal" data-target="#project1" alt="project1">
+          <h3 class="text-uppercase">Project 1</h3>
+          <p>https://githumb.com/udacity/project1</p>
+        </article>
+        <article class="col-md-4">
+          <img class="img-responsive" src="images/project2-img.jpg" data-toggle="modal" data-target="#project2" alt="project2">
+          <h3 class="text-uppercase">Project 2</h3>
+          <p>https://githumb.com/udacity/project2</p>
+        </article>
+        <article class="col-md-4">
+          <img class="img-responsive" src="images/project3-img.jpg" data-toggle="modal" data-target="#project3" alt="project3">
+          <h3 class="text-uppercase">Project 3</h3>
+          <p>https://githumb.com/udacity/project3</p>
+        </article>
+      </section>
+  </div>
+
+  <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Project 1</h4>
+          </div> <div class="modal-body">
+            <img class="img-responsive" src="images/project1-img.jpg" alt="project1-img">
+            This was my first project in this class. I learned a lot about HTML and CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabe2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabe3">Project 2</h4>
+          </div> <div class="modal-body">
+            <img class="img-responsive" src="images/project2-img.jpg" alt="project1-img">
+            This was my first project in this class. I learned a lot about HTML and CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabe3">Project 3</h4>
+          </div> <div class="modal-body">
+            <img class="img-responsive" src="images/project3-img.jpg" alt="project1-img">
+            This was my first project in this class. I learned a lot about HTML and CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="row text-center">
+      <div class="col-md-12">
+        © 2016 Stanlabs, LLC. Made in Mountain View, CA.
+        <br>
+        <a href="mailto:stan.adamchyk@gmail.com">Contact</font></a> |
+        <a href="https://github.com/Prostan" target='_blank' >GitHub </a>
+      </footer>
+  </body>
+</html>
